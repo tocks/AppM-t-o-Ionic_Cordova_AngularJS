@@ -1,0 +1,22 @@
+/* Empty. Add your own CSS if you like */
+.continer{
+  position: relative;
+  width: 10px;
+}
+
+.mask{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px;
+  height: 120px;
+  background: radial-gradient(circle, transparent 60px, white 60px );
+}
+
+.scroll{
+  height: 100%;
+}
+#map{
+  height: 100%;
+  width: 100%;
+}

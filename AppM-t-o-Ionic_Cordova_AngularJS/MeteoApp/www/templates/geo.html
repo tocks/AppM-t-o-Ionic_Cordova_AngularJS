@@ -1,0 +1,11 @@
+<ion-view view-title="Geolocalisation">
+  <ion-content>
+    <div class="padding">
+      <label class="item-floating-label">Heure : {{ position.timestamp | date: 'HH:mm:ss' }} </label>
+      <label class="item-floating-label"> Latitude : {{ position.coords.latitude }} </label>
+      <label class="item-floating-label">Longitude : {{ position.coords.longitude }}</label>
+    </div>
+    <div id="map" data-tape-disabled="true"></div>
+  </ion-content>
+</ion-view>
+
